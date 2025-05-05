@@ -1,0 +1,31 @@
+
+Quickstart Instructions
+
+1. Upload the following CSVs to Azure Blob Storage:
+   - olist_orders_dataset.csv
+   - olist_customers_dataset.csv
+   - olist_products_dataset.csv
+   - olist_sellers_dataset.csv
+   - olist_order_items_dataset.csv
+   - olist_order_payments_dataset.csv
+   - olist_order_reviews_dataset.csv
+
+2. Run notebooks:
+   - 1. move_files_to_archive
+   - 2  checks_before_cleaning	
+
+3. Clean and transform data using Pandas.
+   - 3  cleaning_transformation
+   - 4  creating_calculated_columns
+   - 5  windows_function
+
+4. Save results as Delta tables in Azure Blob Storage.
+   - 6  csv_to_delta
+
+5. Load transformed data to SQL Server.
+   - 7  saving_data_to_SQLserver
+
+6. Validate results in SSMS with SQL scripts in /scripts.
+   -total_sales_product_category
+   -avg_delivery_time_per_seller
+   -number_orders_per_state
